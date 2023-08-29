@@ -1,0 +1,200 @@
+a{text-decoration:none;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul.rt-icnbx6 {
+    padding: 0;
+    display: block;
+    text-align: left;
+}
+
+ul.rt-icnbx6 li {
+    display: block;
+    text-align: left;
+    float: none;
+    padding: 0;
+    margin: 0;
+  width:100%;
+}
+.hm1-icon-box-one .rt-icnbx6 .rt-img-box6, .hm1-icon-box-two .rt-icnbx6 .rt-img-box6, .hm1-icon-box-three .rt-icnbx6 .rt-img-box6, 
+.hm1-icon-box-four .rt-icnbx6 .rt-img-box6  {
+  padding: 40px 32px 40px 35px;
+  margin-left:10px;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  }
+.body-container--home-two .hm1-icon-box-one .rt-icnbx6 .rt-img-box6, .hm2-icon-box-three .rt-icnbx6 .rt-img-box6{
+  margin-left:10px;}
+ .hm2-icon-box-two .rt-icnbx6 .rt-img-box6, .hm2-icon-box-three .rt-icnbx6 .rt-img-box6,
+.hm2-icon-box-four .rt-icnbx6 .rt-img-box6{
+  padding: 50px 24px 60px 24px;
+  transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  }
+.body-container--home-two .hm1-icon-box-one .rt-icnbx6 .rt-img-box6, .body-container--service .hm1-icon-box-one .rt-icnbx6 .rt-img-box6{
+   padding: 50px 24px 60px 24px;
+  border: 1px solid rgba(255, 255, 255, 0.5);}
+
+.hm2-icon-box-two .rt-icnbx6 .rt-img-box6:hover h4, .hm2-icon-box-three .rt-icnbx6 .rt-img-box6:hover h4, 
+.hm2-icon-box-four .rt-icnbx6 .rt-img-box6:hover h4 {
+  color:#333;}
+
+
+.hm1-icon-box-two .rt-icnbx6 .rt-img-box6:hover, .hm1-icon-box-one .rt-icnbx6 .rt-img-box6, .hm1-icon-box-three .rt-icnbx6 .rt-img-box6:hover, 
+.hm1-icon-box-four .rt-icnbx6 .rt-img-box6:hover{
+   transition: background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;
+  box-shadow: 0px 4px 34px 0px rgb(0 0 0 / 15%);
+  background-color: #FDFDFD;
+}
+
+.rt-icon-box6 {
+   padding:55px 25px 55px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /*    aspect-ratio: 1/1.5;*/
+    position: relative;
+    color: #505050;
+    backface-visibility: hidden;
+    text-decoration: none;
+    /*overflow: hidden;
+    transition: all 0.25s cubic-bezier(.32, .55, .79, .49);
+    box-shadow:0px 3px 23px rgba(30,78,196,0.1);*/
+}
+/*
+.rt-icon-box6:hover {
+    text-decoration: none;
+    z-index: 2;
+    transform: perspective(1200px) scale(1.01);
+    /* transition: all 0.45s cubic-bezier(.17, .67, .83, .67); */
+    transition: all 0.25s cubic-bezier(.32, .55, .79, .49);
+}*/
+
+
+.rt-icon-box6 > * {
+    z-index: 1;
+}
+
+
+.hm1-icon-box-one .rt-icnbx6 .rt-img-box6 p, .hm1-icon-box-two .rt-icnbx6 .rt-img-box6 p, .hm1-icon-box-three .rt-icnbx6 .rt-img-box6 p, 
+.hm1-icon-box-four .rt-icnbx6 .rt-img-box6 p, .hm2-icon-box-two .rt-icnbx6 .rt-img-box6 p,
+.hm2-icon-box-three .rt-icnbx6 .rt-img-box6 p, .hm2-icon-box-four .rt-icnbx6 .rt-img-box6 p {
+  padding-top: 30px;
+  padding-right: 1px;
+}
+
+
+.hm1-icon-box-two .rt-icnbx6 .rt-img-box6, .hm1-icon-box-four .rt-icnbx6 .rt-img-box6, .hm2-icon-box-two .rt-icnbx6 .rt-img-box6, .hm2-icon-box-four .rt-icnbx6 .rt-img-box6{
+  margin: 15px 0px 15px 10px;
+}
+
+/*
+.rt-icon-box6:hover :is(h6, p) {
+    transform: none;
+    color: #fff;
+    text-decoration: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.rt-icon-box6::before,
+.rt-icon-box6::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*inset: 0;*/
+/*    top: 0;
+    left: 0;
+    transform: perspective(1200px) scale(1);
+    transform-style: preserve-3d;
+    transition: all .4s ease-in-out;
+}*/
+
+/*
+.rt-icon-box6::after {
+    opacity: 1;*/
+}
+/*
+.rt-icon-box6:hover::after,
+.rt-icon-box6:hover::before {
+  border-radius:0px;
+    opacity: 1;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+    background: #f94144;
+    opacity: 1;
+    transform: perspective(1200px) scale(1.05);
+    transition: all .4s ease-in-out;
+}*/
+
+/*
+.rt-icon-box6:hover p {
+    opacity: 1;
+    transition-delay: 300ms;
+    color: #fff;
+    text-decoration: none;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 1;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}*/
+
+
+.rt-icon-box6 .rt-img-box6 {
+    padding: 0;
+    margin-bottom: 22px;
+    color: #000;
+    fill: #17be74;
+    display: inline-block;
+    opacity: 1;
+    will-change: transform, opacity;
+    transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+      ul.rt-icnbx6 li {
+      flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        width: 100%;
+    }
+  /*.body-container--home-two .dnd_area-module-3-flexbox-positioning > div, 
+  .body-container--home-two .dnd_area-module-4-flexbox-positioning > div, 
+  .body-container--home-two .dnd_area-module-5-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-6-flexbox-positioning > div{width:100%;}
+  
+  .body-container--home-two .dnd_area-module-28-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-29-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-31-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-32-flexbox-positioning > div{width:100%;}
+}*/
+
+@media only screen and (max-width: 767px) {
+    ul.rt-icnbx6 li {
+        flex: 0 0 100%;
+        max-width: 100%;
+      width: 100%;
+        position: relative;
+        padding: 0;
+    }
+  /*.body-container--home-two .dnd_area-module-3-flexbox-positioning > div, 
+  .body-container--home-two .dnd_area-module-4-flexbox-positioning > div, 
+  .body-container--home-two .dnd_area-module-5-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-6-flexbox-positioning > div{width:100%;}
+  
+  .body-container--home-two .dnd_area-module-28-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-29-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-31-flexbox-positioning > div,
+  .body-container--home-two .dnd_area-module-32-flexbox-positioning > div{width:100%;}
+}*/

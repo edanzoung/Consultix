@@ -1,0 +1,133 @@
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box,
+  .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end,
+  .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .ml-2
+  {text-align:center;}
+
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box svg {width:60px;}
+
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box svg{
+  margin-bottom: -25px;}
+
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .ml-2 { 
+  font-size:24px;
+  line-height:34px;
+  font-weight:500;
+  display: inline-flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  text-transform: capitalize;
+  font-family: "Cormorant Infant";
+}
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2{
+  padding-left: 20px;}
+.srv-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2{
+  padding-left: 0;}
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2{
+  padding-left: 8px;}
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2,
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-counter-number-suffix{
+  display: inline-block;
+  font-size:100px;
+  line-height: 100px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Cormorant Infant"; 
+}
+.radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-counter-number-suffix {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    font-weight: 700;
+    color:#00174d;
+}
+.hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box{
+    text-align: center;
+    padding-left: 63px;
+  padding-bottom: 15px;
+}
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box{
+  text-align:left;}
+.hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box{
+    display: flex;
+    align-items:center; 
+}
+.hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2,
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2,
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-counter-number-suffix{
+  font-size:50px;
+  line-height: 60px;}
+
+.hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2, 
+.body-container--about .row-number-4.dnd-section .row-depth-1.row-number-5 .span12 .hm-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2
+{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  margin-top:2px !important;
+  text-transform: uppercase;
+}
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: -0.015em;
+  color: #333333;
+  margin-top:0px !important;
+  text-transform: capitalize;
+  font-family:'Cormorant Infant';}
+.hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end{
+  text-align: left;
+  padding-left:75px;
+  margin-top: -10px;}
+
+.hm1-counter2 {
+  border-right: 1px solid #B07D62;}
+#hs_cos_wrapper_dnd_area-module-30.hm1-counter2 {
+  border-right: none;}
+
+@media screen and (max-width: 1024px){ 
+.body-container--about .row-number-4.dnd-section .row-depth-1.row-number-5 .span12 .hm-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2,
+.srv-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2,
+  .body-container.landing-ebook .row-number-15.dnd-section .row-depth-1.row-number-16 .span12 .hm-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2{
+  font-size: 50px;
+  line-height: 50px;}
+ .body-container--about .row-number-4.dnd-section .row-depth-1.row-number-5 .span12  .hm-counter .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2,
+  .hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2{
+  font-size: 15px;
+  line-height: 25px;}
+ .hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box .radiant-h2{
+  font-size: 35px;
+   line-height: 45px}
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box{
+    padding-left: 25px;}
+  .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box svg{
+  padding-top: 7px;}
+  .hm2-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end .block.mt-2{
+  padding-left: 0px; !important;}}
+@media screen and (max-width: 767px){ 
+   .hm1-counter2 .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box{
+     display: block;
+     padding-bottom: 5px;
+   padding-left:0;}
+  .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .flex.items-end{
+    text-align: center;}
+  .hm1-counter2 {
+    border-right:0;
+    border-bottom: 1px solid #b07d62;
+    padding-bottom: 20px;
+    padding-top: 25px;}
+  #hs_cos_wrapper_dnd_area-module-30.hm1-counter2{
+    border-bottom: none;}
+  .radiant-counter-style-one .radiant-counter-style-one_inner .radiant-counter-style-one_content .rt-img-box svg{
+  padding-bottom: 7px;}
+}
+  
+
+
+
+  

@@ -1,0 +1,64 @@
+
+.radiant-counter-style-one_content  .rt-img-box svg {width:60px;}
+
+.hm-counter .radiant-counter-style-one_content  .ml-2{
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.76em;
+  text-transform: uppercase;
+
+}
+
+.radiant-counter-style-one_content  .rt-img-box .radiant-h2{
+  display: inline-block;
+  font-size:100px;
+  line-height: 100px;
+  text-align: left;
+  font-weight: 400;
+  font-family: "Cormorant Infant"; 
+  
+}
+ 
+.radiant-counter-style-one_content  .rt-img-box .radiant-counter-number-suffix {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: left;
+    font-weight: 700;
+    color:#00174d;
+}
+
+
+.hm1-counter2 .radiant-counter-style-one_content .flex.items-end .block.mt-2, .hm-counter .radiant-counter-style-one_content  .flex.items-end .block.mt-2 {
+  font-size: 14px;
+  letter-spacing: 0.33em;
+  line-height: 30px;
+  margin-top: 2px !important;
+  text-transform: uppercase;}
+
+@media screen and (max-width: 1024px){ 
+.hm-counter .radiant-counter-style-one_content  .rt-img-box .radiant-h2
+{
+  font-size: 50px;
+  line-height: 50px;}
+  .hm-counter .radiant-counter-style-one_content .flex.items-end .block.mt-2
+ {
+  font-size: 14px;
+  line-height: 25px;}
+.hm-counter .radiant-counter-style-one_content .ml-2{
+  font-size: 16px;}
+  
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  
+  .radiant-counter-style-one_content  .rt-img-box svg{
+  padding-top: 7px;}
+ 
+@media screen and (max-width: 767px){  
+   
+  .radiant-counter-style-one_content  .flex.items-end{
+    text-align: center;}
+  .radiant-counter-style-one_content  .rt-img-box svg{
+  padding-bottom: 7px;}
+}

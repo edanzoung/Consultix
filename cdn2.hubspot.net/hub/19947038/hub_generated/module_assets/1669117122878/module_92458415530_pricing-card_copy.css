@@ -1,0 +1,180 @@
+.pricingTable p {
+  margin: 0 0;
+}
+a {
+  color: #f36233;
+  transition: all 0.3s ease 0s;
+  text-decoration: none !important;
+  outline: none !important;
+}
+a:active,
+a:hover {
+  text-decoration: none;
+  outline: 0 none;
+  color: #242526;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+::-moz-selection {
+  background: #f36233;
+  text-shadow: none;
+  color: #ffffff;
+}
+
+/* ------------------------------------
+02. Global CSS
+---------------------------------------*/
+.pricingTable .readon {
+  position: relative;
+  display: inline-block !important;
+  padding: 18px 19px;
+  line-height: normal; 
+  transition: all 0.3s ease 0s;
+  text-transform: capitalize !important;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+
+.inner {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.pricingTable .holder {
+  box-shadow: 5px 10px 40px rgb(0 0 0 / 15%);
+  padding: 62px 53px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: 0.5s ease;
+}
+
+
+.pricingTable .holder:hover {
+  transform: translateY(-5px);
+}
+
+.pricingTable .holder .hdng h4 {
+  color: #333;
+}
+
+.pricingTable .holder .img img {
+  width: 70%;
+}
+.pricingTable .holder .hdng h4{
+  margin-bottom: 25px;}
+  
+  
+.pricingTable .holder .price h2 {
+  color: #262626;
+  margin-bottom: 25px;
+}
+
+
+.pricingTable .holder .price h2 span {
+  font-size: 18px;
+}
+
+.pricingTable .holder .info p {
+  margin-bottom: 15px;
+  padding-bottom:15px;
+  color: #333;
+  border-bottom: 1px solid #f8ece5;
+  text-transform:capitalize;
+
+
+}
+
+
+.pricingTable .holder.active .hdng h4,
+.pricingTable .holder.active .price h2,
+.pricingTable .holder.active .info p {
+  color: #333;
+}
+
+.pricingTable .tabsBtnHolder ul {
+    float: left;
+    display: block;
+    width: 100%;
+    max-width: 326px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.pricingTable .tabsBtnHolder ul li {
+  float: left;
+  width: calc(100% / 2);
+  display: inline-block;
+  transition: 0.4s ease;
+}
+
+.pricingTable .tabsBtnHolder ul li p {
+  padding: 16px 15px;
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
+  line-height: 24px;
+}
+
+.pricingTable .tabsBtnHolder ul li p.active {
+  color: #262626;
+}
+
+.pricingTable .tabsBtnHolder ul li.indicator {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  height: calc(100% - 4px);
+  transform: translateY(-50%);
+  width: 161px;
+  z-index: 9;
+}
+
+
+.pricingTable .holder p.plan-subtitle{
+  background: #f8ece5;
+  border-radius: 50px;
+  color: #333;
+  margin: 26px auto;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+}
+.price-btn {
+  margin-top: 30px;
+      transition: 0.6s ease;
+ 
+}
+.price-btn:hover {
+transform: translateY(-5px);
+     transition: 0.6s ease;}
+.pricingTable .holder .info p:last-child {
+    border-bottom: none;
+}
+
+.pricingTable .holder .info{
+  height:275px;
+  margin-top: 45px;}
+
+@media screen and (max-width: 767px){ 
+  .pricingTable .holder, .pricingTable .holder.active {
+    margin-bottom: 30px;}
+}
+@media screen and (min-width: 768px) and (max-width: 1033px){
+.pricingTable .holder {
+    padding: 40px 15px 40px!important;
+  }}
+@media screen and (max-width: 1137px){
+.pricingTable .holder p.plan-subtitle{
+    width: 100%!important;
+  }}
+.pricingTable .container{
+  padding:0;}
